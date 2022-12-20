@@ -1,0 +1,58 @@
+@media screen and (max-width: 420px) {
+    div#main {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+
+    body {
+        font-size: 10pt;
+    }
+
+    input#nomeUsuario {
+        width: 120px;
+        height: 30px;
+        margin-left: 20px;
+        margin-right: 5px;
+    }
+
+    input#alturaUsuario {
+        width: 120px;
+        height: 30px;
+        margin-left: 20px;
+        margin-right: 5px;
+    }
+
+    input#pesoUsuario {
+        width: 120px;
+        height: 30px;
+        margin-left: 20px;
+    }
+
+    input#botaoCalcular {
+        font-size: 13pt;
+        width: 200px;
+        margin: 10px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    
+    div#resultado {
+
+        width: 160px;
+        height: 80%;
+        margin: 10px;
+        border-radius: 5px;
+        align-items: center;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    body {
+        font-size: 8pt;
+    }
+
+}

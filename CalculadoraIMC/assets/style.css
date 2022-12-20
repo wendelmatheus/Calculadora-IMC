@@ -1,0 +1,81 @@
+body {  
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    font-family: sans-serif;
+    font-size: 12pt;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+div#main {
+    background-color: #ffba00;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 25px;
+}
+
+div#nome {
+    display: flex;
+}
+
+input#nomeUsuario {
+    width: 200px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+div#altura {
+    display: flex;
+    margin-top: 10px;
+}
+
+input#alturaUsuario {
+    width: 200px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+div#peso {
+    display: flex;
+    margin-top: 10px;
+}
+
+input#pesoUsuario {
+    width: 200px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+input#botaoCalcular {
+    background-color: black;
+    color: #ffba00;
+    font-size: 13pt;
+    border-radius: 5px;
+    width: 260px;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+div#resultado {
+    background-color: black;
+    color: #ffba00;
+    width: 220px;
+    height: 80%;
+    margin: 10px;
+    border-radius: 5px;
+    align-items: center;
+    padding: 20px;
+}
